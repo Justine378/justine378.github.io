@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+    <style>
+        .social-icon{
+            color: blue;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+
+        .social-icon:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <a class="social-icon" href="https://twitter.com/gozum_justine" target=" _blank">
+        <ion-icon name="logo-twitter"></ion-icon>
+
+    </a>
+    <a class="social-icon" href="https://www.facebook.com/profile.php?id=100049924273216" target=" _blank">
+        <ion-icon name="logo-facebook"></ion-icon>
+        
+    </a>
+    <a class="social-icon" href="https://instagram.com/" target=" _blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+
+    </a>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#skillsexperiences">SkillsExperiences</a></li>
+            <li><a href="#contact">Contact Me</a></li> 
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <div class="main">
+            <h1 class="headings"> I AM <br> JUSTINE GOZUM <br> WELCOME TO MY WEBSITE</h1>
+            <button class="btn">
+                Project IT202
+            </button>
+
+        </div>
+    </section>
+
+    <section id="about">
+            <h1 class="headings">ABOUT ME</h1>
+            <div id="pic">
+            <img src="hello4.jpg" alt="">
+            </div id="intro">
+            <h2>JUSTINE GOZUM</h2>
+            <p>20 years Old my Birthday is August 26,2001 live in Bankers 3 Antipolo City </p>
+                <p>MY HOBBIES:</p> 
+                <p>playing basketball Playing Video Games Like Mobile legends, Valorant, Call of duty etc.</p>
+                <p>EDUCATIONAL BACKGROUND:</p>
+                <p>(PRIMARY):</p>
+                <p>SAN ISIDRO ELEMENTARY SCHOOL</p>
+                <p>June 2008- March 2014</p>
+                <p>SAN ISIDRO NATIONAL HIGHSCHOOL</p>
+                <p>June 2014- April 2018</p>
+                <p>(SECONDARY):</p>
+                <p>OUR LADY OF FATIMA UNIVERSITY</p>
+                <p>Be-Stem</p>
+                <p>June 2018- March 2020</p>
+                <p>(TERTIARY):</p>
+                <p>WORLD CITI COLLEGES</p>
+                <p>Bachelor of science Information technology</p>
+               <p>2021-2022-Present</p>
+
+        </div>
+    </div>
+</section>
+
+  <section id="gallery">
+      <h1 class="headings">Gallery</h1>
+      <div class="gallery">
+          <img src="Portfolioimg1.jpg" alt="">
+          <img src="Portfolioimg2.jpg" alt="">
+          <img src="Portfolioimg3.jpg" alt="">
+          <img src="Portfolioimg4.jpg" alt="">
+          <img src="Portfolioimg5.jpg" alt="">
+      </div>
+  </section>  
+  
+  <section id="SkillsExperiences">
+      <h1 class="headings">SkillsExperiences</h1>
+      <div class="row">
+          <div class="box">
+            <img src="Services1.png" alt="">
+            <h1 class="heading">SkillsExperiences</h1>
+                <p>JAVA PROGRAMS 50%</p>
+                <p>HTML PROGRAMS 20%</p> 
+                <p>DEVC++ 30%</p> 
+                <p>REPAIRING SHOES</p> 
+                <p>REPAIRING BAGS</p> 
+                <p>REPAIRING CLOTHES</p>
+                <p>REPAIRING PHONE</p>
+                <p>ETC.</p>
+                      
+        </div>
+        <div class="box">
+            <img src="Services2.png" alt="">
+            <h1 class="heading">SkillsExperiences</h1>
+                <p>PYTHON 50%</p>
+                <p>PHP 20%</p> 
+                <p>C LANGUAGE 30%</p> 
+                <p>REPAIRING PC</p> 
+                <p>CREATE SYSTEM</p>
+                <p>SELLING ITEMS</p>
+        </div>
+        <div class="box">
+            <img src="Services3.png" alt="">
+            <h1 class="heading">SkillsExperiences</h1>
+                <p>MYSQL 50%</p>
+                <p>CMD 20%</p> 
+                <p>ORACLE 30%</p> 
+                <p>REPAIRING MOTOR</p> 
+                <p>SELLING FOODS</p>
+                <p>SELLING SHOES</p>
+        </div>
+        
+     </div>
+  </section>
+
+  <section id="contact">
+      <h1 class="headings">CONTACT</h1>
+      <form action="" class="form">
+          <input type="text" name="name" id="input" placeholder="Enter
+          Your Name">
+          <input type="email" name="email" class="input"
+          placeholder="Enter Your Email">
+          <textarea name="msg" id="msg" cols="30" rows="10"
+          placeholder="Enter Your Message"></textarea>
+          <input type="submit" value="SEND" id="send"> 
+      </form>
+  </section>
+</body>
+</html>
